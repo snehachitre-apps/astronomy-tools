@@ -1,0 +1,65 @@
+h1,
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+  text-align: center;
+}
+.imageDisplay{
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+button {
+  background-color: #0e046e;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+ 
+}
+.container {
+  width: 100%;
+  height: auto;
+
+}
+figcaption {
+  font-weight: bold;
+  padding-top: 10px;
+}
+p{
+  text-align: justify;
+  padding: 10px;
+}
+h1 {
+  padding: 40px;
+  text-align: center;
+  background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_ngc2419_potw1908a.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 40px;
+
+}
+
+h6 {
+  padding: 10px;
+  text-align: left;
+  background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_ngc2419_potw1908a.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+}
+
+span{
+  font-style: italic;
+  padding-bottom: 10px;
+}
