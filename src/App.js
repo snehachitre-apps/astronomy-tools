@@ -6,6 +6,7 @@ import ApodForm from './components/ApodForm';
 import Footer from './components/Footer';
 import Image from './components/Image';
 import React, { useState ,useEffect} from "react";
+import MarsForm from './components/MarsForm';
 function App({visible}) {
 
   
@@ -13,13 +14,8 @@ function App({visible}) {
     <div className="App">
       <Banner/>
       <Buttons/>
+      <MarsForm/>
      
-      <div>
-    {visible && (
-      <ApodForm />
-      )
-    }
-    </div> 
       <Footer />
     </div>
   );
