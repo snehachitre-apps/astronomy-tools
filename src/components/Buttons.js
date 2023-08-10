@@ -11,12 +11,12 @@ const [marsVisible, setMarsVisible] = useState(false);
  const handleAPODClick =(e) => {
   e.preventDefault();
   setVisible(true); 
-  
+  setMarsVisible(false);
  }
  const handleMarsClick =(e) => {
   e.preventDefault();
   setMarsVisible(true); 
-  
+  setVisible(false);
  }
   return (
     <>
@@ -34,6 +34,15 @@ const [marsVisible, setMarsVisible] = useState(false);
       <div>
     {marsVisible && (
       <MarsForm />
+    
+      )
+      
+    }
+
+    </div>
+    <div>
+    {visible && (
+      <ApodForm />
       )
     }
 
