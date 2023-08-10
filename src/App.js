@@ -16,8 +16,8 @@ function App({visible}) {
   return (
     <div className="App">
       <Banner/>
+      {/*buttons will conditionally render other forms */ }
       <Buttons/>
-     
       <Footer />
     </div>
   );
