@@ -1,3 +1,5 @@
+//Displays input form for the mars and handles API call for getting mars data.
+
 import Select from "react-select";
 import React, {useState} from "react";
 import Gallery from "./Gallery";

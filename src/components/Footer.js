@@ -1,3 +1,5 @@
+//displays the footer.
+
 import "./styling.css";
 
 export default function Footer(){

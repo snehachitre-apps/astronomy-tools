@@ -1,4 +1,5 @@
-
+//Displays the buttons to select a tool. 
+//possible enhancement :  nav bar.  
 import ApodForm from "./ApodForm";
 import MarsForm from "./MarsForm";
 import "./styling.css";

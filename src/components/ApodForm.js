@@ -1,3 +1,5 @@
+//This form will display when APOD button is clicked. displays date picker for APOD selection.
+
 import React, { useState ,useEffect} from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -14,7 +16,7 @@ const NASA_APOD_URL = `https://api.nasa.gov/planetary/apod?api_key=`;
 export default function ApodForm(){
     
     
- 
+    //state for picking input date
     const [startDate, setStartDate] = useState(new Date()); 
     let date=startDate.toJSON().slice(0,10);
     
@@ -43,8 +45,7 @@ export default function ApodForm(){
       
             const result = await response.json();
            
-            // console.log('result is: ', JSON.stringify(result, null, 4));
-      
+            
             setData(result);
           } catch (err) {
             setErr(err.message);
@@ -72,6 +73,7 @@ export default function ApodForm(){
             />
                
               <button type="Submit" onClick={handleClick}> Get APOD</button>
+              {/*  //if the API call went through then displa the image.*/}
                  {data ? <Image data={data} /> : null} 
                  
               </div>

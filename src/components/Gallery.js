@@ -1,3 +1,4 @@
+//displays the mars photos in Carousel format
 import MarsForm from "./MarsForm";
 import { useState } from "react";
 import ImageGallery from "react-image-gallery";

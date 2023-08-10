@@ -1,3 +1,4 @@
+//displays the Banner 
 import "./styling.css";
 
 export default function Banner(){
