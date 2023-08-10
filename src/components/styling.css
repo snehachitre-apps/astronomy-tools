@@ -63,3 +63,24 @@ span{
   font-style: italic;
   padding-bottom: 10px;
 }
+.select-rover{
+ 
+  display:table;
+  justify-content:center;
+  padding-left: 80vh;
+  padding-top: 10px;
+}
+.carouselImage{
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  /* margin: 40px; */
+  
+}
+.carouselImageDisplay{
+
+  width: 100%;
+  height: auto;
+
+}
