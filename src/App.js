@@ -6,6 +6,10 @@ import ApodForm from './components/ApodForm';
 import Footer from './components/Footer';
 import Image from './components/Image';
 import React, { useState ,useEffect} from "react";
+import MarsForm from './components/MarsForm';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
 function App({visible}) {
 
   
@@ -14,12 +18,6 @@ function App({visible}) {
       <Banner/>
       <Buttons/>
      
-      <div>
-    {visible && (
-      <ApodForm />
-      )
-    }
-    </div> 
       <Footer />
     </div>
   );
