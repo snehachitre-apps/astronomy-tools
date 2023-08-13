@@ -9,9 +9,9 @@ import Image from "./Image";
 import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 
 const NASA_API_KEY = process.env.REACT_APP_NASA_API_KEY;
-// const NASA_APOD_URL = process.env.REACT_APP_API_ENDPOINT;
-const NASA_APOD_URL = `https://api.nasa.gov/planetary/apod?api_key=`;
+const NASA_APOD_URL = process.env.REACT_APP_API_ENDPOINT;
 
+console.log("before function:   ",NASA_APOD_URL);
 
 export default function ApodForm(){
     
@@ -22,7 +22,7 @@ export default function ApodForm(){
     
    
     const baseURL=`${NASA_APOD_URL}${NASA_API_KEY}&date=${date}&thumbs=true`;
-    // console.log(baseURL);
+    console.log(baseURL);
 
     const [data, setData] = useState();
     // const [isLoading, setIsLoading] = useState(false);

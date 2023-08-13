@@ -4,9 +4,9 @@ import Select from "react-select";
 import React, {useState} from "react";
 import Gallery from "./Gallery";
 
-const NASA_MARS_PHOTOS_URL = "https://api.nasa.gov/mars-photos/api/v1/";
-
+const NASA_MARS_PHOTOS_URL = process.env.REACT_APP_MARS_PHOTOS_ENDPOINT;
 const NASA_API_KEY = process.env.REACT_APP_NASA_API_KEY;
+console.log("before function :  ",NASA_MARS_PHOTOS_URL);
 
 
 export default function MarsForm(){
@@ -53,7 +53,7 @@ export default function MarsForm(){
           } catch (err) {
             setErr(err.message);
             
-            console.log(data);
+            // console.log(data);
 
           }
     }
