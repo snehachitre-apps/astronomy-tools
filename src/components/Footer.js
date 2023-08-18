@@ -5,11 +5,13 @@ import "./styling.css";
 export default function Footer(){
 
     return( 
-            <div>
-               <footer>
+            // <div>
+          
+               <footer className="footer">
                 <h6> &copy; 2023 Sneha Chitre</h6> 
                </footer>
-            </div>
+               
+            // </div>
 
 
     );
