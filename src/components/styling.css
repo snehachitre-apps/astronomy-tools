@@ -43,7 +43,7 @@ p{
 h1 {
   padding: 40px;
   text-align: center;
-  background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_ngc2419_potw1908a.jpg");
+  background-image: url("../../public/nebula.jpg");
   background-size: cover;
   color: white;
   font-size: 40px;
@@ -53,7 +53,7 @@ h1 {
 h6 {
   padding: 10px;
   text-align: left;
-  background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_ngc2419_potw1908a.jpg");
+  background-image: url("../../public/nebula.jpg");
   background-size: cover;
   color: white;
   font-size: 20px;
@@ -85,10 +85,11 @@ span{
 
 }
 .content {
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 50px);
 }
 .footer {
   height: 50px;
 }
+
 
 
